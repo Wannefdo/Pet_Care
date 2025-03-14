@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: black;
+	color: white;
+    padding: 10px 0;
+    text-align: center;
+	height:25px;
+	font-size:35px;
+	letter-spacing: 3px;
+ }
+
+nav {
+     background-color: black;
+	 height:25px;
+}
+
+nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            justify-content: center;
+			display:flex;
+			float:right;
+        }
+		
+nav ul li {
+            padding: 3px 45px;
+			
+        }
+
+nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+nav ul li:hover {
+            background-color: red;
+        }
+		
+div.background{
+height:385px;
+}
+
+footer{
+    background-color: black;
+	color: white;
+    padding: 10px 0;
+	height:230px;
+	
+ }
+ 
+ .red-border {
+    border: 3px solid red;
+    width: 100px;
+    height: auto;
+	border-radius: 50%
+}
+
+
+.footer-section p {
+    font-size: 10px;
+    line-height: 1.6;
+	font-family: Lucida Handwriting, serif;
+    font-style: italic;
+}
+
+.footer-section p strong {
+    font-size: 18px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+	text-align:center;
+    margin-bottom: 10px;
+	margin-top:10px;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+	font-size: 13px;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: none;
+	color:red;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center; /* Center icons horizontally */
+}
+
+.info-text{
+    font-size: 12px;
+	color:white;
+}
+
+.icon {
+    width: 40px; /* Width of each icon */
+    height: 40px; /* Height of each icon */
+    background-image: url('css_sprites.png'); /* Sprite image */
+    background-repeat: no-repeat; /* Prevent repeating */
+    margin: 10px 0; /* Space between icons */
+	border-radius: 50%;
+}
+
+.icon1 {
+    background-position: -10px -10px; /* Position for Icon 1 */
+}
+
+.icon2 {
+    background-position: -10px -70px; /* Position for Icon 2 */
+}
+
+.icon3 {
+    background-position: -10px -130px; /* Position for Icon 3 */
+}
+
+ 
+div.fixed{
+color: white;
+background-color:gray;
+padding:3px;
+text-align:center;
+bottom:0;
+left:0;
+right:0;
+}

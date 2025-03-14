@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+	<link rel="icon" type="image" href="p1.png">
+	
+	<style>
+	.contact-form {
+background-color: #0096FF;
+border-radius: 20px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+padding: 20px;
+margin: 50px auto;
+width: 1000px;
+height: 600px;
+}
+
+
+form {
+display: flex;
+flex-direction: column;
+}
+
+p strong{
+font-size:35px;
+text-align:left;
+font-weight: bold;
+}
+
+div.line{
+padding-top:0;
+background-color:black;
+width:180px;
+height:5px;
+margin-top: -25px;
+}
+
+
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+width: 980px;
+height: 20px;
+padding: 10px;
+border: 1px solid white;
+border-radius: 3px;
+margin-bottom: 30px;
+}
+
+textarea {
+width: 980px;
+height: 60px;
+padding: 10px;
+border: 1px solid white;
+border-radius: 3px;
+margin-bottom: 30px;
+}
+
+input[type="submit"] {
+background-color: yellow;
+color: black;
+border: none;
+padding: 10px 20px;
+border-radius: 3px;
+cursor: pointer;
+border-radius: 20px;
+letter-spacing:2px;
+}
+
+input:focus,
+textarea:focus {
+background-color:#F0E68C;
+}
+	
+	
+	
+	
+	
+	
+	</style>
+	
+</head>
+	
+<body>
+<div class="contact-form">
+<p style="color:black;font-family:Times New Roman, Times, serif;font-size:25px; word-spacing:7px;"><b><strong>C</strong>ONTACT US</b></p>
+<div class="line"></div><br><br>
+<form action="Home.html">
+<input type="text" id="name" name="name" value="Name" required>
+<input type="text" id="subject" name="subject" value="Subject" required>
+<input type="tel" id="phone" name="phone" value="Phone" required>
+<input type="email" id="email" name="email" value="Email" required>
+<textarea id="message" name="message">Message</textarea>
+<input type="submit" value="SUBMIT NOW">
+</form>
+</div>
+
+
+
+</body>
+
+</html>
